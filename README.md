@@ -1,6 +1,8 @@
-# Node Hotel Application
+# Node Hotel Application (Backend API)
 
-The Node Hotel application is a Node.js-based system developed using the Express.js framework, with MongoDB as the chosen database. This application manages information related to persons (staff), menu items and task management. It exposes specific endpoints to handle CRUD (Create, Read, Update, Delete) operations for persons, menu items and task management.
+The Node Hotel application is a `Node.js-based system` developed using the `Express.js framework`, with `MongoDB` as the chosen database. This application manages information related to persons (staff), menu items and task management. It exposes specific endpoints to handle `CRUD` (Create, Read, Update, Delete) operations for persons, menu items and task management.
+
+The project uses `MongoDB Atlas` as the cloud database for data storage, and the server is `hosted on Render`, making the API accessible online for frontend usage and deployment experience.
 
 ## Endpoints
 
