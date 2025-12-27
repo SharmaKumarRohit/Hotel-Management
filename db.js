@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-// const mongdbURL = process.env.PORT;
+// const mongdbURL = process.env.MONGODB_URL_LOCAL;
 const mongdbURL = process.env.MONGODB_URL;
 
 mongoose.connect(mongdbURL);
